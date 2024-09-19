@@ -16,7 +16,7 @@ import lombok.Setter;
 public class Catalogo {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
+
 	private int idCatalogo;
 	private String descripcion;
 
